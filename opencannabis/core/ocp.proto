@@ -50,6 +50,11 @@ message KindOptions {
   ProductSuperkind taxonomy = 1;
 }
 
+message RecordOptions {
+  // Treat this record as an anchor/root record when loading data.
+  bool anchor = 1;
+}
+
 
 // Extends enumeration values with a special annotation which categories a given [`ProductKind`](#ProductKind).
 extend google.protobuf.EnumValueOptions {
@@ -59,10 +64,13 @@ extend google.protobuf.EnumValueOptions {
 
 extend google.protobuf.MessageOptions {
   // Info regarding how a concrete model maps to an abstract model.
-  OCPModelInfo model = 6005;
+  OCPModelInfo model = 420002;
+
+  //
+  RecordOptions record = 420003;
 }
 
 extend google.protobuf.FieldOptions {
   // Describes configuration for this field when used in OpenCannabis systems.
-  OCPFieldInfo ocp = 7005;
+  OCPFieldInfo ocp = 420004;
 }
