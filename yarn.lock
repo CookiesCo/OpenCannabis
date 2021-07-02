@@ -33,10 +33,10 @@
     buffer-from "^1.0.0"
     source-map "^0.6.0"
 
-"@bazel/terser@3.6.0":
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/@bazel/terser/-/terser-3.6.0.tgz#4420772b6ea8ea93d966460a9a18bbc788618939"
-  integrity sha512-VOLFtKp1UwtP+mdm9IFSB9sUg74gbea/N70qEQZgTbJXN4lCE08E/dSL4PKwx3nWteNe6Xis7gZHJbzBHniMRg==
+"@bazel/terser@3.7.0":
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/@bazel/terser/-/terser-3.7.0.tgz#a2b3e7488b0c2245add46e0cbf9e89e047223c79"
+  integrity sha512-uvs0ir7me/KSIm4YGhkPolIjs+Fzjg6JrkRg8CYjnVLz+I6Ajr2+X9e3ylZP+0lNWhqJkkCjXm1jybPTUV5RKQ==
 
 "@bazel/typescript@3.6.0":
   version "3.6.0"
